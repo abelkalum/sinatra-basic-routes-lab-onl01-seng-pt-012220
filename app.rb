@@ -10,4 +10,8 @@ class App < Sinatra::Base
    "Worcester"
   end
   
+  get '/' do
+   "Hello, World!"
+  end
+  
 end
